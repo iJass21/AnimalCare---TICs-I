@@ -1,0 +1,331 @@
+
+
+/*Utilidades*/
+
+.margin-bottom-30px{
+  margin-bottom: 30px;
+}
+
+.width50{
+	max-width: 50%;
+}
+
+/*   Bootstrap's Styles         */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+ .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+/*Index*/
+
+.bg-hero{
+  background-image: url("../img/iguana2.jpeg") !important;
+}
+
+/*ingresar*/
+
+
+
+.form-ingresar {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*Registrar*/
+
+.Contenedor-form-registrar{
+  display: block;
+  text-align: center;
+  max-width: 65%;
+  margin-left: 17%;
+  margin-top: -130px;
+  background-color: rgba(204, 204, 204, 0.5);
+  padding: 35px;
+  border-radius: 1rem;
+  margin-bottom: 60px;
+}
+
+.hero-registrar{
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/tigre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.etiqueta{
+  width: 150px;
+  justify-content: center;
+}
+
+/*Seleccionar perfil*/
+
+#header-perfiles {
+	font-size: 5em;
+	text-align: center;
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.perfiles {
+	display: flex;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.perfil {
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	
+	background: #f9feff;
+	
+	text-align: center;
+	width: 300px;
+	height: 410px;
+	
+	margin: 10px;
+	
+	border: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	
+	border-color: gray;
+}
+
+.perfil .nombre {
+	border-bottom: solid;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+.perfil .datos {
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.perfil .acciones {
+	position: absolute;
+	bottom: 0px;
+	height: 60px;
+	width: 100%;
+	
+	border-top: solid;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+.perfil .acciones .seleccionar-perfil {
+	position: absolute;
+	
+	left: 5%;
+	top: 25%;
+	
+	border-width: 1px;
+	border-radius: 8px;
+}
+
+.perfil .acciones .seleccionar-perfil .btn-seleccionar {
+	border-width: 1px;
+	border-radius: 8px;
+}
+
+.perfil .acciones .eliminar-perfil {
+	position: absolute;
+	
+	left: 70%;
+	top: 25%;
+	
+	border-width: 1px;
+	border-radius: 8px;
+}
+
+.perfil .acciones .eliminar-perfil .btn-eliminar {
+	background: #ff30266e;
+	
+	border-width: 1px;
+	border-radius: 8px;
+}
+
+.perfil .agregar-perfil-form {
+	height: 100%;
+}
+
+.agregar-perfil .btn-agregar {
+	font-size: 1.3em;
+	background: #93ff93;
+	
+	position: absolute;
+	height: 80px;
+	width: 150px;
+	
+	top: 40%;
+	left: 25%;
+}
+
+.agregar_perfil-form {
+	margin-left: 30%;
+	margin-right: 30%;
+	border: solid;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+.inicio{
+	
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
